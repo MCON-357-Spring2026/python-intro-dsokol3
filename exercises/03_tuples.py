@@ -10,3 +10,13 @@ Demonstrate tuple immutability
 Create a tuple named 'immutable_tuple' with three integer values.
 Attempt to change the first element of the tuple to a different value and handle the exception that arises
 """
+coordinates = (25, -25, 1000)
+lat, lon, alt = coordinates
+person_info = ("name", 5, 57.5)
+name, age, height = person_info
+immutable_tuple = (1, 2, 3)
+try:
+    immutable_tuple[0] = 10
+except TypeError as e:
+    print(f"Error: {e}")
+
