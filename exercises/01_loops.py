@@ -6,3 +6,18 @@ TODO:
 4. Print the multiplication table of 5
 
 """
+
+for i in range(1, 11):
+    print(i)
+
+for i in range(0, 21, 2):
+    print(i)
+
+sum = 0
+for i in range(0, 101):
+    sum= sum + i
+print(sum)
+
+multiple = 5
+for i in range(0,11 ):
+    print(i*multiple)
