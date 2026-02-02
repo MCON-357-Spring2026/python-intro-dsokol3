@@ -18,5 +18,6 @@ for i in range(0, 101):
     sum= sum + i
 print(sum)
 
-for i in range(0, 101, 5):
-    print(i)
+multiple = 5
+for i in range(0,11 ):
+    print(i*multiple)
